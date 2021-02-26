@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebFormEx.aspx.cs" Inherits="WebFormsExercices.WebFormEx" %>
 
+<%@ Register Src="~/WebUser1.ascx" TagName="WebControl" TagPrefix="TWebControl" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -9,6 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <TWebControl :WebControl ID="Header" runat="server" />
         <div>
            <!-- <%Response.Write("Hello World"); %> -->
             <asp:Label ID="lblName" runat="server" Text="Name"></asp:Label>
