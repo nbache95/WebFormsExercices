@@ -11,9 +11,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <TWebControl :WebControl ID="Header" runat="server" />
-        <div>
-           <!-- <%Response.Write("Hello World"); %> -->
+        <TWebControl:WebControl ID="Header" runat="server" />
+       <!-- <div>
+            <%//Response.Write("Hello World"); %> 
             <asp:Label ID="lblName" runat="server" Text="Name"></asp:Label>
             <br />
             <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
@@ -33,7 +33,7 @@
             <asp:CheckBox ID="chkASP" runat="server" Text="ASP.Net" />
             <br />
             <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="Submit" />
-        </div>
+        </div>-->
     </form>
 </body>
 </html>
