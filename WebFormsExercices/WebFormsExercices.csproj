@@ -70,6 +70,7 @@
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="WebFormEx.aspx" />
+    <Content Include="WebUser1.ascx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="WebFormEx.aspx.designer.cs">
       <DependentUpon>WebFormEx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUser1.ascx.cs">
+      <DependentUpon>WebUser1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUser1.ascx.designer.cs">
+      <DependentUpon>WebUser1.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
